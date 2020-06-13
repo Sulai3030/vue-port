@@ -8,8 +8,13 @@
 export default {
   data () {
     return {
-      title: 'My portfolio'
+      title: 'My Portfolio'
     }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      // our custom jQuery code goes here
+    })
   }
 }
 </script>
@@ -9816,7 +9821,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #1B90A1 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10057,9 +10062,10 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  color: #1CD4ED;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #A1135A;
 }
 
 @media (min-width: 992px) {
