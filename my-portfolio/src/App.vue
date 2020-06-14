@@ -12,6 +12,7 @@ export default {
     }
   },
   mounted () {
+    const $ = this.jquery
     this.$nextTick(() => {
       // our custom jQuery code goes here
     })
