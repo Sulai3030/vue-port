@@ -12,6 +12,7 @@ export default {
     }
   },
   mounted () {
+    // eslint-disable-next-line no-unused-vars
     const $ = this.jquery
     this.$nextTick(() => {
       // our custom jQuery code goes here
@@ -71,7 +72,7 @@ export default {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Roboto";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -83,7 +84,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "font-family: 'Roboto Slab', serif;", "Muli", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
